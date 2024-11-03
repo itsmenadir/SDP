@@ -17,7 +17,6 @@ class Main{
             UserFactory courierFactory = new CourierFactory();
             User courier = courierFactory.createUser();
             courier.login(); // Output: Courier logged in.
-
             Menu menu = new Menu.MenuBuilder("Italian Restaurant")
                     .setDishes(Arrays.asList("Pasta", "Pizza", "Tiramisu"))
                     .setPrices(Arrays.asList(12.99, 15.99, 7.99))
